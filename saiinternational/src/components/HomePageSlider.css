@@ -1,0 +1,57 @@
+
+.bannertextstyle{
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  height: 500px;
+}
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* .banner_style{
+    width: 100%;
+    min-height: 150px;
+    max-height: 150px;
+    object-fit:cover;
+  } */
+  .bg-image-center{
+    height: 250px !important;
+    background-size: cover !important;
+  }
+  h2,h1{
+    font-size: 0.625rem !important;
+  }
+  .bannertextstyle{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+    height: 250px;
+  }
+  .btn-lg{
+    font-size: 0.525rem;
+  }
+
+ }
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .bg-image-center{
+    height: 250px !important;
+    background-size: cover !important;
+  }
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
